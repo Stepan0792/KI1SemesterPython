@@ -1,0 +1,6 @@
+time = int(input("Give time in seconds: "))
+h_hours = int(time / 3600)
+h_minutes = int((time % 3600)/60)
+h_seconds = int(time % 60)
+print("We have ", h_hours, "hours, ", h_minutes, " minutes, ", h_seconds, " seconds.")
+print(f"{h_hours}:{h_minutes}:{h_seconds}")
